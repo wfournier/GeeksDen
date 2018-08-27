@@ -1,0 +1,19 @@
+<?xml version='1.0' standalone='yes'?>
+<categories>
+	<category id="1">
+		<name>Video Games</name>
+		<link>showcategory.php?cat_id=1</link>
+	</category>
+	<category id="2">
+		<name>Music Albums</name>
+		<link>showcategory.php?cat_id=2</link>
+	</category>
+	<category id="3">
+		<name>Movies</name>
+		<link>showcategory.php?cat_id=3</link>
+	</category>
+	<category id="4">
+		<name>Shirts</name>
+		<link>showcategory.php?cat_id=4</link>
+	</category>
+</categories>
