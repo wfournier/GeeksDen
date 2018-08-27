@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("sql203.epizy.com", "epiz_20957841", "admin1234", "epiz_20957841_shopping_cart_williamf");
+$conn = new mysqli("localhost", "root", "", "shopping_cart_williamF");
 
 if ($conn->connect_error) {
 	echo "Couldn't make a connection";
