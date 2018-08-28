@@ -1,5 +1,7 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "shopping_cart_williamF");
+include 'connection.php';
+
+$conn = newCon();
 
 if ($conn->connect_error) {
 	echo "Couldn't make a connection";

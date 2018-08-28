@@ -1,7 +1,9 @@
 <?php include "Cart.php"; include "Bill.php";
 session_start();
 
-$conn = new mysqli("sql203.epizy.com", "epiz_20957841", "admin1234", "epiz_20957841_shopping_cart_williamf");
+include 'connection.php';
+
+$conn = newCon();
 
 if ($conn->connect_error) {
 	echo "Couldn't make a connection";
