@@ -7,6 +7,7 @@ if ($conn->connect_error) {
 	echo "Couldn't make a connection";
 	exit;
 }
+
 ?>
 <html>
 <head>
