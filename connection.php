@@ -1,5 +1,5 @@
 <?php
     function newCon() {
-        return new mysqli("localhost", "root", "", "geeks_den", 8080);
+        return new mysqli("localhost", "root", "", "geeks_den");
     }
 ?>
